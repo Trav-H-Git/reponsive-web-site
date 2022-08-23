@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+*,
+*::before *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  font: inherit;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
@@ -413,4 +440,14 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.main-header {
+  background: red;
+  background-image: url("../images/bg-desktop-light.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
