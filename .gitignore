@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,sass
 
+## Misc ##
+style-guide.md
+
 ### Sass ###
 .sass-cache/
 *.css.map

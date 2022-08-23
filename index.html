@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>  
 <head>  
-    <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>todo list</title>
 </head>
-<body>  
-    <p>hello</p>
+<body>
+  <header class="main-header">
+  </header>
+
+  <main class="container main-container">
+    <!--todo / dark/light-->
+    <div class="container">
+      <div class="col">
+        <h1>todo</h1>
+      </div>
+      <div class="col">
+        <a href="#"><img src="images/icon-sun.svg" alt="sun icon"/></a>
+       
+      </div>
+    </div>
+        <!-- add task -->
+    <div class="container add-task">
+      <div class="check-icon"></div>
+      <input type="text">
+      <div class="cross-icon"></div>
+    </div>
+        <!-- Task list-->
+    <div class="container">
+      <ul>
+        <li>
+          <div class="check-icon"></div>
+          <p>Complete online JavaScript course</p>
+          <div class="cross-icon"></div>
+        </li>
+        <li>
+          <div class="check-icon"></div>
+          <p>Jog around the park 3x</p>
+          <div class="cross-icon"></div>
+        </li>
+        <li>
+          <div class="check-icon"></div>
+          <p>10 minutes meditation</p>
+          <div class="cross-icon"></div>
+        </li>
+        <li>
+          <div class="check-icon"></div>
+          <p>Read for 1 hour</p>
+          <div class="cross-icon"></div>
+        </li>
+        <li>
+          <div class="check-icon"></div>
+          <p>Pick up groceries</p>
+          <div class="cross-icon"></div>
+        </li>
+        <li>
+          <div class="check-icon"></div>
+          <p>Complete Todo App on Frontend Mentor</p>
+          <div class="cross-icon"></div>
+        </li>
+      </ul>
+    </div>
+        <!-- task list modifiers-->
+    <div class="container completion-status">
+        <p>5 items Left</p>
+        <a class="m-btn">Clear Completed</a>
+    </div>
+    <div class="container task-filter">
+     <ul>
+      <li><a href="" class="m-btn">All</a></li>
+      <li><a href="" class="m-btn">Active</a></li>
+      <li><a href="" class="m-btn">Completed</a></li>
+     </ul>
+    </div>
+  </main>
+
+  <footer>
+    
+    <p>Drag and drop to reorder list</p>
+  </footer>
 </body>
 </html>
