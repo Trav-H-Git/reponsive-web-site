@@ -10,25 +10,26 @@
   <header class="main-header">
   </header>
 
-  <main class="container main-container">
+  <div class="centered-floating">
+  <main class="flex-container main-container">
     <!--todo / dark/light-->
-    <div class="container">
-      <div class="col">
+    <section class="flex-child-full flex-container">
+      <div class="flex-child-1-2">
         <h1>todo</h1>
       </div>
-      <div class="col">
+      <div class="flex-child-1-2">
         <a href="#"><img src="images/icon-sun.svg" alt="sun icon"/></a>
        
       </div>
-    </div>
+    </section>
         <!-- add task -->
-    <div class="container add-task">
+    <section class="flex-child-full flex-container add-task-container">
       <div class="check-icon"></div>
       <input type="text">
       <div class="cross-icon"></div>
-    </div>
+    </section>
         <!-- Task list-->
-    <div class="container">
+    <section class="flex-child-full flex-container">
       <ul>
         <li>
           <div class="check-icon"></div>
@@ -61,22 +62,22 @@
           <div class="cross-icon"></div>
         </li>
       </ul>
-    </div>
+    </section>
         <!-- task list modifiers-->
-    <div class="container completion-status">
+    <section class="flex-child-full flex-container completion-status-container">
         <p>5 items Left</p>
         <a class="m-btn">Clear Completed</a>
-    </div>
-    <div class="container task-filter">
+    </section>
+    <section class="flex-child-full flex-container task-filter-container">
      <ul>
       <li><a href="" class="m-btn">All</a></li>
       <li><a href="" class="m-btn">Active</a></li>
       <li><a href="" class="m-btn">Completed</a></li>
      </ul>
-    </div>
+    </section>
   </main>
-
-  <footer>
+  </div>
+  <footer class="main-footer">
     
     <p>Drag and drop to reorder list</p>
   </footer>
